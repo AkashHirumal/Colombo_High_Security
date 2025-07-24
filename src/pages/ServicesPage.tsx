@@ -111,7 +111,6 @@ const ServicesPage = () => {
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
                   className="bg-white border border-gray-200 p-6 rounded-xl hover:shadow-lg transition-shadow duration-300 group"
-                  className="bg-blue-900 text-white p-3 rounded-lg w-fit mb-4 group-hover:bg-[#2C4A39] transition-colors duration-300"
                 >
                   <div className="bg-blue-900 text-white p-3 rounded-lg w-fit mb-4 group-hover:bg-red-600 transition-colors duration-300">
                     <IconComponent className="h-6 w-6" />
@@ -160,7 +159,7 @@ const ServicesPage = () => {
                 className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
               >
                 <div className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-[#2C4A39] rounded-full"></div>
+                  <div className="w-2 h-2 bg-red-600 rounded-full"></div>
                   <span className="text-gray-900 font-medium">{industry}</span>
                 </div>
               </motion.div>
@@ -185,19 +184,19 @@ const ServicesPage = () => {
               </p>
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
-                  <FileText className="h-6 w-6 text-[#2C4A39]" />
+                  <FileText className="h-6 w-6 text-red-400" />
                   <span>Security Ethics & Professional Conduct</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <AlertTriangle className="h-6 w-6 text-[#2C4A39]" />
+                  <AlertTriangle className="h-6 w-6 text-red-400" />
                   <span>Risk Assessment & Threat Analysis</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <Heart className="h-6 w-6 text-[#2C4A39]" />
+                  <Heart className="h-6 w-6 text-red-400" />
                   <span>First Aid & Emergency Response</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <Clock className="h-6 w-6 text-[#2C4A39]" />
+                  <Clock className="h-6 w-6 text-red-400" />
                   <span>Continuous Professional Development</span>
                 </div>
               </div>
@@ -250,7 +249,7 @@ const ServicesPage = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="/contact"
-                className="bg-[#2C4A39] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#1F3329] transition-colors duration-200"
+                className="bg-red-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-red-700 transition-colors duration-200"
               >
                 Request Consultation
               </a>

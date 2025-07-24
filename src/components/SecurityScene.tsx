@@ -55,8 +55,8 @@ const FloatingOrbs = () => {
       {orbs.map((pos, index) => (
         <Sphere key={index} args={[0.1]} position={[pos.x, pos.y, pos.z]}>
           <meshStandardMaterial 
-            color="#2C4A39" 
-            emissive="#2C4A39"
+            color="#dc2626" 
+            emissive="#dc2626"
             emissiveIntensity={0.5}
           />
         </Sphere>
@@ -71,7 +71,7 @@ const SecurityScene = () => {
       <Canvas camera={{ position: [0, 0, 8], fov: 50 }}>
         <ambientLight intensity={0.4} />
         <directionalLight position={[10, 10, 5]} intensity={1} />
-        <pointLight position={[-10, -10, -5]} intensity={0.5} color="#2C4A39" />
+        <pointLight position={[-10, -10, -5]} intensity={0.5} color="#dc2626" />
         
         <SecurityShield />
         <FloatingOrbs />
