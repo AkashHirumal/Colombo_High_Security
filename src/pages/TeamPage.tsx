@@ -57,7 +57,7 @@ const TeamPage = () => {
   return (
     <div className="pt-16">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-20">
+      <section className="bg-gradient-to-r from-slate-800 to-slate-700 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -66,7 +66,7 @@ const TeamPage = () => {
             className="text-center"
           >
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Our Leadership Team</h1>
-            <p className="text-xl text-blue-200 max-w-4xl mx-auto">
+            <p className="text-xl text-slate-300 max-w-4xl mx-auto">
               Led by experienced professionals from military, police, and security backgrounds, 
               our team brings decades of combined expertise to every security challenge.
             </p>
@@ -96,18 +96,18 @@ const TeamPage = () => {
                   </div>
                   <div className="flex-1">
                     <h3 className="text-xl font-bold text-gray-900 mb-2">{member.name}</h3>
-                    <p className="text-blue-900 font-semibold mb-4">{member.position}</p>
+                    <p className="text-slate-700 font-semibold mb-4">{member.position}</p>
                     <p className="text-gray-600 mb-4 text-sm leading-relaxed">{member.bio}</p>
                     
                     <div className="mb-4">
                       <h4 className="font-semibold text-gray-900 mb-2 flex items-center">
-                        <Award className="h-4 w-4 mr-2 text-red-600" />
+                        <Award className="h-4 w-4 mr-2 text-orange-600" />
                         Qualifications
                       </h4>
                       <ul className="space-y-1">
                         {member.qualifications.map((qual, idx) => (
                           <li key={idx} className="text-sm text-gray-600 flex items-center">
-                            <div className="w-1 h-1 bg-blue-900 rounded-full mr-2"></div>
+                            <div className="w-1 h-1 bg-slate-700 rounded-full mr-2"></div>
                             {qual}
                           </li>
                         ))}
@@ -116,11 +116,11 @@ const TeamPage = () => {
 
                     <div className="flex flex-col sm:flex-row sm:space-x-4 space-y-2 sm:space-y-0 text-sm">
                       <div className="flex items-center space-x-2 text-gray-600">
-                        <Mail className="h-4 w-4 text-blue-900" />
+                        <Mail className="h-4 w-4 text-slate-700" />
                         <span>{member.contact.email}</span>
                       </div>
                       <div className="flex items-center space-x-2 text-gray-600">
-                        <Phone className="h-4 w-4 text-blue-900" />
+                        <Phone className="h-4 w-4 text-slate-700" />
                         <span>{member.contact.phone}</span>
                       </div>
                     </div>
@@ -152,7 +152,7 @@ const TeamPage = () => {
               transition={{ duration: 0.5 }}
               className="text-center bg-white p-6 rounded-xl shadow-md"
             >
-              <Users className="h-12 w-12 text-blue-900 mx-auto mb-4" />
+              <Users className="h-12 w-12 text-slate-700 mx-auto mb-4" />
               <div className="text-3xl font-bold text-gray-900 mb-2">500+</div>
               <div className="text-gray-600">Trained Personnel</div>
             </motion.div>
@@ -163,7 +163,7 @@ const TeamPage = () => {
               transition={{ duration: 0.5, delay: 0.1 }}
               className="text-center bg-white p-6 rounded-xl shadow-md"
             >
-              <Award className="h-12 w-12 text-blue-900 mx-auto mb-4" />
+              <Award className="h-12 w-12 text-slate-700 mx-auto mb-4" />
               <div className="text-3xl font-bold text-gray-900 mb-2">50+</div>
               <div className="text-gray-600">Years Combined Experience</div>
             </motion.div>
@@ -174,7 +174,7 @@ const TeamPage = () => {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="text-center bg-white p-6 rounded-xl shadow-md"
             >
-              <Users className="h-12 w-12 text-blue-900 mx-auto mb-4" />
+              <Users className="h-12 w-12 text-slate-700 mx-auto mb-4" />
               <div className="text-3xl font-bold text-gray-900 mb-2">6</div>
               <div className="text-gray-600">Senior Leadership</div>
             </motion.div>
@@ -185,7 +185,7 @@ const TeamPage = () => {
               transition={{ duration: 0.5, delay: 0.3 }}
               className="text-center bg-white p-6 rounded-xl shadow-md"
             >
-              <Award className="h-12 w-12 text-blue-900 mx-auto mb-4" />
+              <Award className="h-12 w-12 text-slate-700 mx-auto mb-4" />
               <div className="text-3xl font-bold text-gray-900 mb-2">100%</div>
               <div className="text-gray-600">Professional Commitment</div>
             </motion.div>
@@ -194,7 +194,7 @@ const TeamPage = () => {
       </section>
 
       {/* Join Our Team CTA */}
-      <section className="py-16 bg-blue-900 text-white">
+      <section className="py-16 bg-slate-800 text-white">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -204,13 +204,13 @@ const TeamPage = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
               Join Our Professional Team
             </h2>
-            <p className="text-xl text-blue-200 mb-8">
+            <p className="text-xl text-slate-300 mb-8">
               We're always looking for dedicated professionals to join our growing team. 
               Apply today and be part of Sri Lanka's premier security service provider.
             </p>
             <a
               href="/contact"
-              className="bg-red-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-red-700 transition-colors duration-200 inline-flex items-center space-x-2"
+              className="bg-orange-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-orange-700 transition-colors duration-200 inline-flex items-center space-x-2"
             >
               <span>Apply Now</span>
               <Users className="h-5 w-5" />

@@ -81,7 +81,7 @@ const ServicesPage = () => {
   return (
     <div className="pt-16">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-20">
+      <section className="bg-gradient-to-r from-slate-800 to-slate-700 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -90,7 +90,7 @@ const ServicesPage = () => {
             className="text-center"
           >
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Our Services</h1>
-            <p className="text-xl text-blue-200 max-w-4xl mx-auto">
+            <p className="text-xl text-slate-300 max-w-4xl mx-auto">
               Comprehensive security solutions tailored to meet the unique needs of every client, 
               delivered by our team of highly trained professionals.
             </p>
@@ -112,7 +112,7 @@ const ServicesPage = () => {
                   transition={{ duration: 0.5, delay: index * 0.1 }}
                   className="bg-white border border-gray-200 p-6 rounded-xl hover:shadow-lg transition-shadow duration-300 group"
                 >
-                  <div className="bg-blue-900 text-white p-3 rounded-lg w-fit mb-4 group-hover:bg-red-600 transition-colors duration-300">
+                  <div className="bg-slate-700 text-white p-3 rounded-lg w-fit mb-4 group-hover:bg-orange-600 transition-colors duration-300">
                     <IconComponent className="h-6 w-6" />
                   </div>
                   <h3 className="text-lg font-bold text-gray-900 mb-3">{service.title}</h3>
@@ -120,7 +120,7 @@ const ServicesPage = () => {
                   <ul className="space-y-1">
                     {service.features.map((feature, idx) => (
                       <li key={idx} className="text-sm text-gray-500 flex items-center space-x-2">
-                        <div className="w-1 h-1 bg-blue-900 rounded-full"></div>
+                        <div className="w-1 h-1 bg-slate-700 rounded-full"></div>
                         <span>{feature}</span>
                       </li>
                     ))}
@@ -159,7 +159,7 @@ const ServicesPage = () => {
                 className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
               >
                 <div className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-red-600 rounded-full"></div>
+                  <div className="w-2 h-2 bg-orange-600 rounded-full"></div>
                   <span className="text-gray-900 font-medium">{industry}</span>
                 </div>
               </motion.div>
@@ -169,7 +169,7 @@ const ServicesPage = () => {
       </section>
 
       {/* Training & Qualifications */}
-      <section className="py-16 bg-blue-900 text-white">
+      <section className="py-16 bg-slate-800 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <motion.div
@@ -178,25 +178,25 @@ const ServicesPage = () => {
               transition={{ duration: 0.8 }}
             >
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Training & Excellence</h2>
-              <p className="text-blue-200 mb-6 leading-relaxed">
+              <p className="text-slate-300 mb-6 leading-relaxed">
                 Our personnel undergo rigorous training programs to ensure they meet the highest 
                 standards of professionalism and competency in security operations.
               </p>
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
-                  <FileText className="h-6 w-6 text-red-400" />
+                  <FileText className="h-6 w-6 text-orange-400" />
                   <span>Security Ethics & Professional Conduct</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <AlertTriangle className="h-6 w-6 text-red-400" />
+                  <AlertTriangle className="h-6 w-6 text-orange-400" />
                   <span>Risk Assessment & Threat Analysis</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <Heart className="h-6 w-6 text-red-400" />
+                  <Heart className="h-6 w-6 text-orange-400" />
                   <span>First Aid & Emergency Response</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <Clock className="h-6 w-6 text-red-400" />
+                  <Clock className="h-6 w-6 text-orange-400" />
                   <span>Continuous Professional Development</span>
                 </div>
               </div>
@@ -209,7 +209,7 @@ const ServicesPage = () => {
               className="bg-white bg-opacity-10 p-8 rounded-xl"
             >
               <h3 className="text-2xl font-bold mb-6">Recruitment Standards</h3>
-              <div className="space-y-4 text-blue-200">
+              <div className="space-y-4 text-slate-300">
                 <div>
                   <strong className="text-white">Age Range:</strong> 18-60 years
                 </div>
@@ -249,13 +249,13 @@ const ServicesPage = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="/contact"
-                className="bg-red-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-red-700 transition-colors duration-200"
+                className="bg-orange-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-orange-700 transition-colors duration-200"
               >
                 Request Consultation
               </a>
               <a
                 href="tel:+94764112284"
-                className="bg-blue-900 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-800 transition-colors duration-200"
+                className="bg-slate-700 text-white px-8 py-3 rounded-lg font-semibold hover:bg-slate-600 transition-colors duration-200"
               >
                 Call: 076 411 2284
               </a>

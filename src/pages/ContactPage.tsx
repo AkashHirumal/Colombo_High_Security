@@ -91,7 +91,7 @@ const ContactPage = () => {
   return (
     <div className="pt-16">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-20">
+      <section className="bg-gradient-to-r from-slate-800 to-slate-700 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -100,7 +100,7 @@ const ContactPage = () => {
             className="text-center"
           >
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Contact Us</h1>
-            <p className="text-xl text-blue-200 max-w-4xl mx-auto">
+            <p className="text-xl text-slate-300 max-w-4xl mx-auto">
               Get in touch with our security experts for consultation, quotes, 
               or emergency response. We're here to protect what matters most to you.
             </p>
@@ -246,7 +246,7 @@ const ContactPage = () => {
                   <button
                     type="submit"
                     disabled={isSubmitting}
-                    className="w-full bg-red-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-red-700 transition-colors duration-200 flex items-center justify-center space-x-2 disabled:opacity-50 disabled:cursor-not-allowed"
+                    className="w-full bg-orange-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-orange-700 transition-colors duration-200 flex items-center justify-center space-x-2 disabled:opacity-50 disabled:cursor-not-allowed"
                   >
                     {isSubmitting ? (
                       <>
@@ -291,7 +291,7 @@ const ContactPage = () => {
                       className="bg-white p-6 rounded-xl shadow-md border border-gray-100"
                     >
                       <div className="flex items-start space-x-4">
-                        <div className="bg-blue-900 text-white p-3 rounded-lg">
+                        <div className="bg-slate-700 text-white p-3 rounded-lg">
                           <IconComponent className="h-6 w-6" />
                         </div>
                         <div>
@@ -313,7 +313,7 @@ const ContactPage = () => {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
-                className="bg-red-600 text-white p-6 rounded-xl"
+                className="bg-orange-600 text-white p-6 rounded-xl"
               >
                 <h3 className="font-bold text-lg mb-3 flex items-center">
                   <AlertCircle className="h-6 w-6 mr-2" />
@@ -323,11 +323,11 @@ const ContactPage = () => {
                 <div className="space-y-2">
                   <a 
                     href="tel:+94764112284" 
-                    className="block text-xl font-bold hover:text-red-200 transition-colors"
+                    className="block text-xl font-bold hover:text-orange-200 transition-colors"
                   >
                     076 411 2284
                   </a>
-                  <p className="text-red-100 text-sm">Available 24/7</p>
+                  <p className="text-orange-100 text-sm">Available 24/7</p>
                 </div>
               </motion.div>
             </motion.div>

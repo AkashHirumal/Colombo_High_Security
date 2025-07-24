@@ -17,10 +17,10 @@ const SecurityShield = () => {
     <mesh ref={meshRef} position={[0, 0, 0]}>
       <cylinderGeometry args={[1, 1.2, 0.2, 6]} />
       <meshStandardMaterial 
-        color="#1e3a8a" 
+        color="#475569" 
         metalness={0.8} 
         roughness={0.2}
-        emissive="#0f172a"
+        emissive="#1e293b"
         emissiveIntensity={0.1}
       />
     </mesh>
@@ -55,8 +55,8 @@ const FloatingOrbs = () => {
       {orbs.map((pos, index) => (
         <Sphere key={index} args={[0.1]} position={[pos.x, pos.y, pos.z]}>
           <meshStandardMaterial 
-            color="#dc2626" 
-            emissive="#dc2626"
+            color="#ea580c" 
+            emissive="#ea580c"
             emissiveIntensity={0.5}
           />
         </Sphere>
@@ -67,11 +67,11 @@ const FloatingOrbs = () => {
 
 const SecurityScene = () => {
   return (
-    <div className="w-full h-96 bg-gradient-to-br from-blue-900 to-blue-700">
+    <div className="w-full h-96 bg-gradient-to-br from-slate-800 to-slate-700">
       <Canvas camera={{ position: [0, 0, 8], fov: 50 }}>
         <ambientLight intensity={0.4} />
         <directionalLight position={[10, 10, 5]} intensity={1} />
-        <pointLight position={[-10, -10, -5]} intensity={0.5} color="#dc2626" />
+        <pointLight position={[-10, -10, -5]} intensity={0.5} color="#ea580c" />
         
         <SecurityShield />
         <FloatingOrbs />

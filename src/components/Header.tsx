@@ -12,7 +12,6 @@ const Header = () => {
     { name: 'About', href: '/about' },
     { name: 'Services', href: '/services' },
     { name: 'Team', href: '/team' },
-    { name: 'Certificates', href: '/certificates' },
     { name: 'Contact', href: '/contact' },
   ];
 
@@ -22,9 +21,9 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <Shield className="h-8 w-8 text-blue-900" />
+            <Shield className="h-8 w-8 text-slate-800" />
             <div className="flex flex-col">
-              <span className="text-lg font-bold text-blue-900">Colombo High Security</span>
+              <span className="text-lg font-bold text-slate-800">Colombo High Security</span>
               <span className="text-xs text-gray-600">(Pvt) Ltd</span>
             </div>
           </Link>
@@ -37,8 +36,8 @@ const Header = () => {
                 to={item.href}
                 className={`px-3 py-2 text-sm font-medium transition-colors duration-200 ${
                   location.pathname === item.href
-                    ? 'text-blue-900 border-b-2 border-blue-900'
-                    : 'text-gray-700 hover:text-blue-900'
+                    ? 'text-slate-800 border-b-2 border-orange-500'
+                    : 'text-gray-700 hover:text-slate-800'
                 }`}
               >
                 {item.name}
@@ -50,7 +49,7 @@ const Header = () => {
           <div className="hidden md:flex">
             <Link
               to="/contact"
-              className="bg-red-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-red-700 transition-colors duration-200"
+              className="bg-orange-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-orange-700 transition-colors duration-200"
             >
               Emergency: 076 411 2284
             </Link>
@@ -81,8 +80,8 @@ const Header = () => {
                   onClick={() => setIsMenuOpen(false)}
                   className={`px-3 py-2 text-sm font-medium ${
                     location.pathname === item.href
-                      ? 'text-blue-900 bg-blue-50'
-                      : 'text-gray-700 hover:text-blue-900 hover:bg-gray-50'
+                      ? 'text-slate-800 bg-slate-50'
+                      : 'text-gray-700 hover:text-slate-800 hover:bg-gray-50'
                   }`}
                 >
                   {item.name}
@@ -91,7 +90,7 @@ const Header = () => {
               <Link
                 to="/contact"
                 onClick={() => setIsMenuOpen(false)}
-                className="bg-red-600 text-white px-3 py-2 rounded-lg text-sm font-medium text-center mx-3 mt-2"
+                className="bg-orange-600 text-white px-3 py-2 rounded-lg text-sm font-medium text-center mx-3 mt-2"
               >
                 Emergency Contact
               </Link>
