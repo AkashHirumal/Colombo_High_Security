@@ -16,7 +16,7 @@ const AboutPage = () => {
   return (
     <div className="pt-16">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-20">
+      <section className="bg-gradient-to-r from-slate-800 to-slate-700 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -25,7 +25,7 @@ const AboutPage = () => {
             className="text-center"
           >
             <h1 className="text-4xl md:text-5xl font-bold mb-6">About Colombo High Security</h1>
-            <p className="text-xl text-blue-200 max-w-4xl mx-auto">
+            <p className="text-xl text-slate-300 max-w-4xl mx-auto">
               Established on January 1st, 2025, we are Sri Lanka's premier government-approved 
               security and investigation company, committed to excellence in protection services.
             </p>
@@ -70,19 +70,19 @@ const AboutPage = () => {
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Quick Facts</h3>
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
-                  <Shield className="h-6 w-6 text-blue-900" />
+                  <Shield className="h-6 w-6 text-slate-700" />
                   <span className="text-gray-700">Established: January 1, 2025</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <Award className="h-6 w-6 text-blue-900" />
+                  <Award className="h-6 w-6 text-slate-700" />
                   <span className="text-gray-700">MOD Registration: MOD/CSD/PS/01/938</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <Users className="h-6 w-6 text-blue-900" />
+                  <Users className="h-6 w-6 text-slate-700" />
                   <span className="text-gray-700">500+ Trained Personnel</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <Target className="h-6 w-6 text-blue-900" />
+                  <Target className="h-6 w-6 text-slate-700" />
                   <span className="text-gray-700">100+ Active Clients</span>
                 </div>
               </div>
@@ -102,7 +102,7 @@ const AboutPage = () => {
               className="bg-white p-8 rounded-xl shadow-lg"
             >
               <div className="text-center mb-6">
-                <div className="bg-blue-900 text-white p-4 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                <div className="bg-slate-700 text-white p-4 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                   <Eye className="h-8 w-8" />
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900">Our Vision</h3>
@@ -121,7 +121,7 @@ const AboutPage = () => {
               className="bg-white p-8 rounded-xl shadow-lg"
             >
               <div className="text-center mb-6">
-                <div className="bg-red-600 text-white p-4 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                <div className="bg-orange-600 text-white p-4 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                   <Target className="h-8 w-8" />
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900">Our Mission</h3>
@@ -164,10 +164,10 @@ const AboutPage = () => {
                   transition={{ duration: 0.5, delay: index * 0.1 }}
                   className="bg-gray-50 p-6 rounded-xl text-center hover:shadow-lg transition-shadow duration-300"
                 >
-                  <div className="bg-blue-900 text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">
+                  <div className="bg-slate-700 text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">
                     {item.letter}
                   </div>
-                  <IconComponent className="h-8 w-8 text-red-600 mx-auto mb-3" />
+                  <IconComponent className="h-8 w-8 text-orange-600 mx-auto mb-3" />
                   <h3 className="font-bold text-gray-900 mb-2">{item.value}</h3>
                   <p className="text-gray-600 text-sm">{item.description}</p>
                 </motion.div>
@@ -178,7 +178,7 @@ const AboutPage = () => {
       </section>
 
       {/* Certifications Preview */}
-      <section className="py-16 bg-blue-900 text-white">
+      <section className="py-16 bg-slate-800 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -188,15 +188,15 @@ const AboutPage = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
               Fully Licensed & Insured
             </h2>
-            <p className="text-xl text-blue-200 mb-8 max-w-3xl mx-auto">
+            <p className="text-xl text-slate-300 mb-8 max-w-3xl mx-auto">
               We maintain all necessary certifications and insurance coverage to ensure 
               complete protection for our clients and personnel.
             </p>
             <a
-              href="/certificates"
-              className="bg-red-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-red-700 transition-colors duration-200 inline-flex items-center space-x-2"
+              href="/contact"
+              className="bg-orange-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-orange-700 transition-colors duration-200 inline-flex items-center space-x-2"
             >
-              <span>View Our Certificates</span>
+              <span>Contact for Documentation</span>
               <Award className="h-5 w-5" />
             </a>
           </motion.div>
