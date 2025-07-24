@@ -101,7 +101,7 @@ const TeamPage = () => {
                     
                     <div className="mb-4">
                       <h4 className="font-semibold text-gray-900 mb-2 flex items-center">
-                        <Award className="h-4 w-4 mr-2 text-red-600" />
+                        <Award className="h-4 w-4 mr-2 text-[#2C4A39]" />
                         Qualifications
                       </h4>
                       <ul className="space-y-1">
@@ -210,7 +210,7 @@ const TeamPage = () => {
             </p>
             <a
               href="/contact"
-              className="bg-red-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-red-700 transition-colors duration-200 inline-flex items-center space-x-2"
+              className="bg-[#2C4A39] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#1F3329] transition-colors duration-200 inline-flex items-center space-x-2"
             >
               <span>Apply Now</span>
               <Users className="h-5 w-5" />

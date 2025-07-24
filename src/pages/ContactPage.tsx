@@ -246,7 +246,7 @@ const ContactPage = () => {
                   <button
                     type="submit"
                     disabled={isSubmitting}
-                    className="w-full bg-red-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-red-700 transition-colors duration-200 flex items-center justify-center space-x-2 disabled:opacity-50 disabled:cursor-not-allowed"
+                    className="w-full bg-[#2C4A39] text-white py-3 px-6 rounded-lg font-semibold hover:bg-[#1F3329] transition-colors duration-200 flex items-center justify-center space-x-2 disabled:opacity-50 disabled:cursor-not-allowed"
                   >
                     {isSubmitting ? (
                       <>
@@ -313,7 +313,7 @@ const ContactPage = () => {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
-                className="bg-red-600 text-white p-6 rounded-xl"
+                className="bg-[#2C4A39] text-white p-6 rounded-xl"
               >
                 <h3 className="font-bold text-lg mb-3 flex items-center">
                   <AlertCircle className="h-6 w-6 mr-2" />
@@ -323,11 +323,11 @@ const ContactPage = () => {
                 <div className="space-y-2">
                   <a 
                     href="tel:+94764112284" 
-                    className="block text-xl font-bold hover:text-red-200 transition-colors"
+                    className="block text-xl font-bold hover:text-green-200 transition-colors"
                   >
                     076 411 2284
                   </a>
-                  <p className="text-red-100 text-sm">Available 24/7</p>
+                  <p className="text-green-100 text-sm">Available 24/7</p>
                 </div>
               </motion.div>
             </motion.div>

@@ -12,7 +12,6 @@ const Header = () => {
     { name: 'About', href: '/about' },
     { name: 'Services', href: '/services' },
     { name: 'Team', href: '/team' },
-    { name: 'Certificates', href: '/certificates' },
     { name: 'Contact', href: '/contact' },
   ];
 
@@ -24,7 +23,7 @@ const Header = () => {
           <Link to="/" className="flex items-center space-x-2">
             <Shield className="h-8 w-8 text-blue-900" />
             <div className="flex flex-col">
-              <span className="text-lg font-bold text-blue-900">Colombo High Security</span>
+            className="bg-[#2C4A39] text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-[#1F3329] transition-colors duration-200"
               <span className="text-xs text-gray-600">(Pvt) Ltd</span>
             </div>
           </Link>
@@ -91,7 +90,7 @@ const Header = () => {
               <Link
                 to="/contact"
                 onClick={() => setIsMenuOpen(false)}
-                className="bg-red-600 text-white px-3 py-2 rounded-lg text-sm font-medium text-center mx-3 mt-2"
+                className="bg-[#2C4A39] text-white px-3 py-2 rounded-lg text-sm font-medium text-center mx-3 mt-2"
               >
                 Emergency Contact
               </Link>

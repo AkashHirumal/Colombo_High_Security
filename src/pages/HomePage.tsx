@@ -8,9 +8,9 @@ const HomePage = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative overflow-hidden">
-        <SecurityScene />
-        <div className="absolute inset-0 bg-blue-900 bg-opacity-50 flex items-center justify-center">
+      <section className="relative overflow-hidden bg-cover bg-center bg-no-repeat" style={{backgroundImage: 'url(https://images.pexels.com/photos/8566473/pexels-photo-8566473.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)'}}>
+        <div className="absolute inset-0 bg-[#2C4A39] bg-opacity-80"></div>
+        <div className="relative z-10 py-32">
           <div className="text-center text-white px-4">
             <motion.h1 
               initial={{ opacity: 0, y: 30 }}
@@ -24,7 +24,7 @@ const HomePage = () => {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="text-xl md:text-2xl mb-8 text-blue-100"
+              className="text-xl md:text-2xl mb-8 text-green-100"
             >
               Trustworthy • Disciplined • Secure
             </motion.p>
@@ -36,7 +36,7 @@ const HomePage = () => {
             >
               <Link
                 to="/services"
-                className="bg-red-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-red-700 transition-colors duration-200 flex items-center justify-center space-x-2"
+                className="bg-[#2C4A39] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#1F3329] transition-colors duration-200 flex items-center justify-center space-x-2"
               >
                 <span>Our Services</span>
                 <ArrowRight className="h-5 w-5" />
@@ -223,7 +223,7 @@ const HomePage = () => {
               transition={{ duration: 0.5, delay: 0.3 }}
               className="text-center"
             >
-              <Eye className="h-16 w-16 text-red-400 mx-auto mb-4" />
+              <Eye className="h-16 w-16 text-[#2C4A39] mx-auto mb-4" />
               <h3 className="text-lg font-semibold mb-2">24/7 Monitoring</h3>
               <p className="text-blue-200">Round-the-clock surveillance and response</p>
             </motion.div>
@@ -243,7 +243,7 @@ const HomePage = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/contact"
-              className="bg-red-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-red-700 transition-colors duration-200 flex items-center justify-center space-x-2"
+              className="bg-[#2C4A39] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#1F3329] transition-colors duration-200 flex items-center justify-center space-x-2"
             >
               <span>Get Free Consultation</span>
               <ArrowRight className="h-5 w-5" />

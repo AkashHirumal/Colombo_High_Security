@@ -121,7 +121,7 @@ const AboutPage = () => {
               className="bg-white p-8 rounded-xl shadow-lg"
             >
               <div className="text-center mb-6">
-                <div className="bg-red-600 text-white p-4 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                <div className="bg-[#2C4A39] text-white p-4 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                   <Target className="h-8 w-8" />
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900">Our Mission</h3>
@@ -168,6 +168,7 @@ const AboutPage = () => {
                     {item.letter}
                   </div>
                   <IconComponent className="h-8 w-8 text-red-600 mx-auto mb-3" />
+                  <IconComponent className="h-8 w-8 text-[#2C4A39] mx-auto mb-3" />
                   <h3 className="font-bold text-gray-900 mb-2">{item.value}</h3>
                   <p className="text-gray-600 text-sm">{item.description}</p>
                 </motion.div>
@@ -178,7 +179,7 @@ const AboutPage = () => {
       </section>
 
       {/* Certifications Preview */}
-      <section className="py-16 bg-blue-900 text-white">
+      <section className="py-16 bg-[#2C4A39] text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -186,17 +187,17 @@ const AboutPage = () => {
             transition={{ duration: 0.8 }}
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Fully Licensed & Insured
+              Professional Security Excellence
             </h2>
-            <p className="text-xl text-blue-200 mb-8 max-w-3xl mx-auto">
-              We maintain all necessary certifications and insurance coverage to ensure 
-              complete protection for our clients and personnel.
+            <p className="text-xl text-green-200 mb-8 max-w-3xl mx-auto">
+              Our commitment to excellence ensures the highest standards of security 
+              services with complete professionalism and reliability.
             </p>
             <a
-              href="/certificates"
-              className="bg-red-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-red-700 transition-colors duration-200 inline-flex items-center space-x-2"
+              href="/contact"
+              className="bg-blue-900 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-800 transition-colors duration-200 inline-flex items-center space-x-2"
             >
-              <span>View Our Certificates</span>
+              <span>Contact Us Today</span>
               <Award className="h-5 w-5" />
             </a>
           </motion.div>
