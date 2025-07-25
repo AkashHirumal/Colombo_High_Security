@@ -9,7 +9,11 @@ const Footer = () => {
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <Shield className="h-8 w-8 text-white" />
+              <img 
+                src="/CHS Logo 1 .png" 
+                alt="Colombo High Security Logo" 
+                className="h-10 w-10 object-contain"
+              />
               <div>
                 <h3 className="text-xl font-bold">Colombo High Security</h3>
                 <p className="text-sm text-blue-200">(Pvt) Ltd</p>

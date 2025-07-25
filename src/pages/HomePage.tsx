@@ -11,6 +11,18 @@ const HomePage = () => {
       <section className="relative h-screen overflow-hidden bg-cover bg-center bg-no-repeat" style={{backgroundImage: 'url(https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&dpr=1)'}}>
         <div className="absolute inset-0 bg-slate-900 bg-opacity-75 flex items-center justify-center">
           <div className="text-center text-white px-4">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.8 }}
+              className="mb-8"
+            >
+              <img 
+                src="/CHS Logo 1 .png" 
+                alt="Colombo High Security Logo" 
+                className="h-24 w-24 md:h-32 md:w-32 object-contain mx-auto mb-4"
+              />
+            </motion.div>
             <motion.h1 
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}

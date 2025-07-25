@@ -44,6 +44,13 @@ const AboutPage = () => {
               transition={{ duration: 0.8 }}
             >
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
+              <div className="mb-6">
+                <img 
+                  src="/CHS Logo 1 .png" 
+                  alt="Colombo High Security Logo" 
+                  className="h-16 w-16 object-contain"
+                />
+              </div>
               <p className="text-gray-600 mb-4 leading-relaxed">
                 Colombo High Security (Pvt) Ltd was founded with a clear mission: to provide 
                 unparalleled security services across Sri Lanka. As a government-approved company 

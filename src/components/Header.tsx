@@ -21,7 +21,11 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <Shield className="h-8 w-8 text-slate-800" />
+            <img 
+              src="/CHS Logo 1 .png" 
+              alt="Colombo High Security Logo" 
+              className="h-10 w-10 object-contain"
+            />
             <div className="flex flex-col">
               <span className="text-lg font-bold text-slate-800">Colombo High Security</span>
               <span className="text-xs text-gray-600">(Pvt) Ltd</span>
