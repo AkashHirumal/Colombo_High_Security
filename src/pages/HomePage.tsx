@@ -8,9 +8,9 @@ const HomePage = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative overflow-hidden">
+      <section className="relative overflow-hidden bg-cover bg-center bg-no-repeat" style={{backgroundImage: 'url(https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)'}}>
         <SecurityScene />
-        <div className="absolute inset-0 bg-slate-800 bg-opacity-60 flex items-center justify-center">
+        <div className="absolute inset-0 bg-slate-900 bg-opacity-75 flex items-center justify-center">
           <div className="text-center text-white px-4">
             <motion.h1 
               initial={{ opacity: 0, y: 30 }}
