@@ -14,10 +14,10 @@ const AboutPage = () => {
   ];
 
   return (
-    <div className="pt-16">
+    <div className="pt-0">
       {/* Hero Section */}
-      <section className="relative bg-cover bg-center bg-no-repeat text-white py-20" style={{backgroundImage: 'url(https://images.pexels.com/photos/416978/pexels-photo-416978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)'}}>
-        <div className="absolute inset-0 bg-slate-800 bg-opacity-80"></div>
+      <section className="relative bg-cover bg-center bg-no-repeat text-white py-20" style={{backgroundImage: 'url(https://i.postimg.cc/c4sQ1BZd/slider-1-1024x439.jpg)'}}>
+        <div className="absolute inset-0 bg-slate-800 bg-opacity-50"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -44,13 +44,6 @@ const AboutPage = () => {
               transition={{ duration: 0.8 }}
             >
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
-              <div className="mb-6">
-                <img 
-                  src="/CHS Logo 1 .png" 
-                  alt="Colombo High Security Logo" 
-                  className="h-16 w-16 object-contain"
-                />
-              </div>
               <p className="text-gray-600 mb-4 leading-relaxed">
                 Colombo High Security (Pvt) Ltd was founded with a clear mission: to provide 
                 unparalleled security services across Sri Lanka. As a government-approved company 
@@ -75,6 +68,13 @@ const AboutPage = () => {
               transition={{ duration: 0.8 }}
               className="bg-gray-50 p-8 rounded-xl"
             >
+              <div className="mb-6">
+                <img 
+                  src="/CHS Logo 1 .png" 
+                  alt="Colombo High Security Logo" 
+                  className="h-60 w-60 object-contain"
+                />
+              </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Quick Facts</h3>
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">

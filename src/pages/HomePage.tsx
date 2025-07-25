@@ -8,12 +8,12 @@ const HomePage = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative h-screen overflow-hidden bg-cover bg-center bg-no-repeat" style={{backgroundImage: 'url(https://images.pexels.com/photos/2422915/pexels-photo-2422915.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&dpr=1)'}}>
-        <div className="absolute inset-0 bg-slate-900 bg-opacity-75 flex items-center justify-center">
+      <section className="relative h-screen overflow-hidden bg-cover bg-center bg-no-repeat" style={{backgroundImage: 'url(https://i.postimg.cc/VLcCGB5j/factory-security-nashville.jpg)'}}>
+        <div className="absolute inset-0 bg-slate-900 bg-opacity-65 flex items-center justify-center">
           <div className="text-center text-white px-4">
             <motion.div
-              initial={{ opacity: 0, scale: 0.8 }}
-              animate={{ opacity: 1, scale: 1 }}
+              initial={{ opacity: 0, scale: 0.5 }}
+              animate={{ opacity: 1, scale: 1.5 }}
               transition={{ duration: 0.8 }}
               className="mb-8"
             >
