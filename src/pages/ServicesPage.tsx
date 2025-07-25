@@ -79,10 +79,10 @@ const ServicesPage = () => {
   ];
 
   return (
-    <div className="pt-16">
+    <div className="pt-0">
       {/* Hero Section */}
-      <section className="relative bg-cover bg-center bg-no-repeat text-white py-20" style={{backgroundImage: 'url(https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)'}}>
-        <div className="absolute inset-0 bg-slate-800 bg-opacity-80"></div>
+      <section className="relative bg-cover bg-center bg-no-repeat text-white py-20" style={{backgroundImage: 'url(https://i.postimg.cc/9QDwzxkH/Security-banner-1250-X493-PX-1.jpg)'}}>
+        <div className="absolute inset-0 bg-slate-800 bg-opacity-40"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
