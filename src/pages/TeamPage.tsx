@@ -37,12 +37,12 @@ const TeamPage = () => {
       contact: { email: 'codirector@colombosecurity.lk', phone: '076 476 0546' }
     },
     {
-      name: 'Naval Officer (Retd.) Ajantha Weerasinghe',
+      name: 'Major (Retd.) S.A.P. Peiris',
       position: 'Operations & Business Development Manager',
       image: 'https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=400',
-      bio: 'Former naval officer bringing maritime and coastal security expertise. Manages operations coordination and business development initiatives.',
-      qualifications: ['Naval Operations', 'Business Development', 'Strategic Planning'],
-      contact: { email: 'bizdev@colombosecurity.lk', phone: '076 411 2284' }
+      bio: 'Retired Sri Lanka Army officer with over 24 years of distinguished service. Brings extensive leadership and field experience with proven expertise in strategic planning, operational management, and security solutions. His disciplined military background combined with business acumen drives organizational growth and operational excellence.',
+      qualifications: ['Military Leadership', 'Strategic Planning', 'Operational Management', 'Security Solutions'],
+      contact: { email: 'bizdev@colombosecurity.lk', phone: '074 188 98 91' }
     },
     {
       name: 'Mr. AK Dilruk',

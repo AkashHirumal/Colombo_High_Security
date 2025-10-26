@@ -62,10 +62,9 @@ const ContactPage = () => {
       icon: Phone,
       title: 'Hotlines',
       details: [
-        '076 411 2284',
-        '076 060 1645',
-        '077 769 6567',
-        '076 476 0546'
+        'Mobile: 077 488 98 92',
+        'Office: 0117 110 969',
+        'Mobile: 074 188 98 91'
       ]
     },
     {
@@ -322,11 +321,11 @@ const ContactPage = () => {
                 </h3>
                 <p className="mb-3">For immediate security assistance or emergencies:</p>
                 <div className="space-y-2">
-                  <a 
-                    href="tel:+94764112284" 
+                  <a
+                    href="tel:+94774889892"
                     className="block text-xl font-bold hover:text-orange-200 transition-colors"
                   >
-                    076 411 2284
+                    077 488 98 92
                   </a>
                   <p className="text-orange-100 text-sm">Available 24/7</p>
                 </div>
