@@ -91,8 +91,8 @@ const ContactPage = () => {
   return (
     <div className="pt-0">
       {/* Hero Section */}
-      <section className="relative bg-cover bg-center bg-no-repeat text-white py-20" style={{backgroundImage: 'url(https://images.pexels.com/photos/1181354/pexels-photo-1181354.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)'}}>
-        <div className="absolute inset-0 bg-slate-800 bg-opacity-4 0"></div>
+      <section className="relative bg-cover bg-center bg-no-repeat text-white py-20" style={{backgroundImage: 'url(https://i.postimg.cc/CxC5RW4t/AM-Security-contact.jpg)'}}>
+        <div className="absolute inset-0 bg-slate-800 bg-opacity-50"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
