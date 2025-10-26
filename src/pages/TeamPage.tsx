@@ -7,50 +7,46 @@ const TeamPage = () => {
     {
       name: 'KAU Ishara Gunasekara',
       position: 'Managing Director',
-      image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://i.postimg.cc/bZRhXFNX/Untitled-design.png',
       bio: 'Leading the organization with strategic vision and operational excellence. Brings extensive experience in security management and business development.',
-      qualifications: ['Security Management Certification', 'Business Administration'],
-      contact: { email: 'md@colombosecurity.lk', phone: '076 411 2284' }
+      qualifications: ['Security Management Certification', 'Business Administration']
     },
     {
       name: 'DIG (Retd.) Lal Seneviratne',
       position: 'Director Operations',
-      image: 'https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://i.postimg.cc/F7ZWht35/1555754.png',
       bio: 'Retired Deputy Inspector General with decades of experience in law enforcement and security operations. Oversees all operational aspects of the company.',
-      qualifications: ['Police Leadership', 'Security Operations', 'Crisis Management'],
-      contact: { email: 'operations@colombosecurity.lk', phone: '076 060 1645' }
+      qualifications: ['Police Leadership', 'Security Operations', 'Crisis Management']
     },
     {
       name: 'Mr. Chamara Perera',
       position: 'Director Admin & Finance',
-      image: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://i.postimg.cc/F7ZWht35/1555754.png',
       bio: 'Experienced finance professional managing administrative operations and financial planning with meticulous attention to detail.',
-      qualifications: ['Chartered Accountant', 'Financial Management', 'Corporate Administration'],
-      contact: { email: 'finance@colombosecurity.lk', phone: '077 769 6567' }
+      qualifications: ['Chartered Accountant', 'Financial Management', 'Corporate Administration']
+      
     },
     {
       name: 'Major (Retd.) Namal Rathnayake',
       position: 'Co-Director Operations',
-      image: 'https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://i.postimg.cc/F7ZWht35/1555754.png',
       bio: 'Retired military officer with extensive experience in tactical operations and personnel management. Co-leads operational strategies and field operations.',
-      qualifications: ['Military Leadership', 'Tactical Operations', 'Personnel Management'],
-      contact: { email: 'codirector@colombosecurity.lk', phone: '076 476 0546' }
+      qualifications: ['Military Leadership', 'Tactical Operations', 'Personnel Management']
+      
     },
     {
-      name: 'Naval Officer (Retd.) Ajantha Weerasinghe',
+      name: 'Major (Retd.) S.A.P. Peiris',
       position: 'Operations & Business Development Manager',
-      image: 'https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=400',
-      bio: 'Former naval officer bringing maritime and coastal security expertise. Manages operations coordination and business development initiatives.',
-      qualifications: ['Naval Operations', 'Business Development', 'Strategic Planning'],
-      contact: { email: 'bizdev@colombosecurity.lk', phone: '076 411 2284' }
+      image: 'https://i.postimg.cc/F7ZWht35/1555754.png',
+      bio: 'Retired Sri Lanka Army officer with 24+ years of service, specializing in leadership, strategic planning, and security management. Combines military discipline with business expertise to drive operational excellence and organizational growth.',
+      qualifications: ['Security Operations', 'Leadership & Command', 'Strategic Planning']
     },
     {
       name: 'Mr. AK Dilruk',
       position: 'Director – Training',
-      image: 'https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://i.postimg.cc/F7ZWht35/1555754.png',
       bio: 'Expert in security training and personnel development. Designs and implements comprehensive training programs for all security personnel.',
-      qualifications: ['Training & Development', 'Security Education', 'Curriculum Design'],
-      contact: { email: 'training@colombosecurity.lk', phone: '077 769 6567' }
+      qualifications: ['Training & Development', 'Security Education', 'Curriculum Design']
     }
   ];
 
@@ -113,17 +109,6 @@ const TeamPage = () => {
                           </li>
                         ))}
                       </ul>
-                    </div>
-
-                    <div className="flex flex-col sm:flex-row sm:space-x-4 space-y-2 sm:space-y-0 text-sm">
-                      <div className="flex items-center space-x-2 text-gray-600">
-                        <Mail className="h-4 w-4 text-slate-700" />
-                        <span>{member.contact.email}</span>
-                      </div>
-                      <div className="flex items-center space-x-2 text-gray-600">
-                        <Phone className="h-4 w-4 text-slate-700" />
-                        <span>{member.contact.phone}</span>
-                      </div>
                     </div>
                   </div>
                 </div>

@@ -55,7 +55,7 @@ const Header = () => {
               to="/contact"
               className="bg-orange-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-orange-700 transition-colors duration-200"
             >
-              Emergency: 076 411 2284
+              Emergency: 0117 110 969
             </Link>
           </div>
 

@@ -26,7 +26,6 @@ const ContactPage = () => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate form submission
     setTimeout(() => {
       setIsSubmitting(false);
       setSubmitStatus('success');
@@ -62,19 +61,16 @@ const ContactPage = () => {
       icon: Phone,
       title: 'Hotlines',
       details: [
-        '076 411 2284',
-        '076 060 1645',
-        '077 769 6567',
-        '076 476 0546'
+        'Mobile: 077 488 98 92',
+        'Office: 0117 110 969',
+        'Other: 074 188 98 91'
       ]
     },
     {
       icon: Mail,
       title: 'Email',
       details: [
-        'info@colombosecurity.lk',
-        'operations@colombosecurity.lk',
-        'emergency@colombosecurity.lk'
+        'info@colombohighsecurity.com'
       ]
     },
     {
@@ -323,10 +319,10 @@ const ContactPage = () => {
                 <p className="mb-3">For immediate security assistance or emergencies:</p>
                 <div className="space-y-2">
                   <a 
-                    href="tel:+94764112284" 
+                    href="tel:+94774889892" 
                     className="block text-xl font-bold hover:text-orange-200 transition-colors"
                   >
-                    076 411 2284
+                    077 488 98 92
                   </a>
                   <p className="text-orange-100 text-sm">Available 24/7</p>
                 </div>
@@ -352,13 +348,15 @@ const ContactPage = () => {
           </motion.div>
 
           <div className="bg-white rounded-xl shadow-lg overflow-hidden">
-            <div className="bg-gray-300 h-96 flex items-center justify-center">
-              <div className="text-center">
-                <MapPin className="h-16 w-16 text-gray-500 mx-auto mb-4" />
-                <p className="text-gray-600 font-medium">Interactive Map</p>
-                <p className="text-gray-500 text-sm">4th Floor, No.280A, Lake Road, Maharagama</p>
-              </div>
-            </div>
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.3929132210756!2d79.9153199!3d6.8434106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25b0010670413%3A0x6d185b2223fe672f!2sColombo%20High%20Security%20(Pvt)%20Ltd!5e0!3m2!1sen!2slk!4v1761476527593!5m2!1sen!2slk" 
+              width="100%" 
+              height="450" 
+              style={{ border: 0 }}
+              loading="lazy" 
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Colombo High Security Map"
+            ></iframe>
           </div>
         </div>
       </section>

@@ -258,7 +258,7 @@ const ServicesPage = () => {
                 href="tel:+94764112284"
                 className="bg-slate-700 text-white px-8 py-3 rounded-lg font-semibold hover:bg-slate-600 transition-colors duration-200"
               >
-                Call: 076 411 2284
+                Call:  0117 110 969
               </a>
             </div>
           </motion.div>
