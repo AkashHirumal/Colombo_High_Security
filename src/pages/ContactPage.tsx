@@ -72,9 +72,9 @@ const ContactPage = () => {
       icon: Mail,
       title: 'Email',
       details: [
-        'info@colombosecurity.lk',
-        'operations@colombosecurity.lk',
-        'emergency@colombosecurity.lk'
+        'info@colombohighsecurity.com',
+        'operations@colombohighsecurity.com',
+        'emergency@colombohighsecurity.com'
       ]
     },
     {
