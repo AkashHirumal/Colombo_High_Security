@@ -40,6 +40,7 @@ const TeamPage = () => {
       image: 'https://i.postimg.cc/F7ZWht35/1555754.png',
       bio: 'Retired Sri Lanka Army officer with 24+ years of service, specializing in leadership, strategic planning, and security management. Combines military discipline with business expertise to drive operational excellence and organizational growth.',
       qualifications: ['Security Operations', 'Leadership & Command', 'Strategic Planning']
+
     },
     {
       name: 'Mr. AK Dilruk',
