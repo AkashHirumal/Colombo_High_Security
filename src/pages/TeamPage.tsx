@@ -1,6 +1,6 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Mail, Phone, Award, Users } from 'lucide-react';
+import { Helmet } from 'react-helmet-async';
 
 const TeamPage = () => {
   const teamMembers = [
@@ -56,6 +56,85 @@ const TeamPage = () => {
 
   return (
     <div className="pt-0">
+      <Helmet>
+        <title>Our Team - Colombo High Security</title>
+        <meta name="description" content="Meet the experienced leadership team of Colombo High Security, comprised of retired military and police officers dedicated to providing top-tier security services in Sri Lanka." />
+        <meta property="og:title" content="Our Team - Colombo High Security" />
+        <meta property="og:description" content="Meet the experienced leadership team of Colombo High Security, comprised of retired military and police officers dedicated to providing top-tier security services in Sri Lanka." />
+        <meta property="og:image" content="https://colombohighsecurity.com/CHS%20Logo%201%20.png" />
+        <meta property="og:url" content="https://colombohighsecurity.com/team" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Our Team - Colombo High Security" />
+        <meta name="twitter:description" content="Meet the experienced leadership team of Colombo High Security, comprised of retired military and police officers dedicated to providing top-tier security services in Sri Lanka." />
+        <meta name="twitter:image" content="https://colombohighsecurity.com/CHS%20Logo%201%20.png" />
+        <script type="application/ld+json">
+          {`
+            [
+              {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "KAU Ishara Gunasekara",
+                "jobTitle": "Managing Director",
+                "image": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400",
+                "description": "Leading the organization with strategic vision and operational excellence. Brings extensive experience in security management and business development.",
+                "email": "md@colombohighsecurity.com",
+                "telephone": "076 411 2284"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "DIG (Retd.) Lal Seneviratne",
+                "jobTitle": "Director Operations",
+                "image": "https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=400",
+                "description": "Retired Deputy Inspector General with decades of experience in law enforcement and security operations. Oversees all operational aspects of the company.",
+                "email": "operations@colombohighsecurity.com",
+                "telephone": "076 060 1645"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Mr. Chamara Perera",
+                "jobTitle": "Director Admin & Finance",
+                "image": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=400",
+                "description": "Experienced finance professional managing administrative operations and financial planning with meticulous attention to detail.",
+                "email": "finance@colombohighsecurity.com",
+                "telephone": "077 769 6567"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Major (Retd.) Namal Rathnayake",
+                "jobTitle": "Co-Director Operations",
+                "image": "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=400",
+                "description": "Retired military officer with extensive experience in tactical operations and personnel management. Co-leads operational strategies and field operations.",
+                "email": "codirector@colombohighsecurity.com",
+                "telephone": "076 476 0546"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Major (Retd.) S.A.P. Peiris",
+                "jobTitle": "Operations & Business Development Manager",
+                "image": "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=400",
+                "description": "Retired Sri Lanka Army officer with over 24 years of distinguished service. Brings extensive leadership and field experience with proven expertise in strategic planning, operational management, and security solutions. His disciplined military background combined with business acumen drives organizational growth and operational excellence.",
+                "email": "bizdev@colombohighsecurity.com",
+                "telephone": "074 188 98 91"
+              },
+              {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Mr. AK Dilruk",
+                "jobTitle": "Director – Training",
+                "image": "https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&cs=tinysrgb&w=400",
+                "description": "Expert in security training and personnel development. Designs and implements comprehensive training programs for all security personnel.",
+                "email": "training@colombohighsecurity.com",
+                "telephone": "077 769 6567"
+              }
+            ]
+          `}
+        </script>
+      </Helmet>
       {/* Hero Section */}
       <section className="relative bg-cover bg-center bg-no-repeat text-white py-20" style={{backgroundImage: 'url(https://images.pexels.com/photos/1181396/pexels-photo-1181396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)'}}>
         <div className="absolute inset-0 bg-slate-800 bg-opacity-60"></div>

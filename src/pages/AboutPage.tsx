@@ -1,6 +1,6 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Shield, Target, Eye, Users, Award, Heart } from 'lucide-react';
+import { Helmet } from 'react-helmet-async';
 
 const AboutPage = () => {
   const coreValues = [
@@ -15,6 +15,19 @@ const AboutPage = () => {
 
   return (
     <div className="pt-0">
+      <Helmet>
+        <title>About Us - Colombo High Security</title>
+        <meta name="description" content="Learn about Colombo High Security, Sri Lanka's premier government-approved security and investigation company. Discover our mission, vision, and core values." />
+        <meta property="og:title" content="About Us - Colombo High Security" />
+        <meta property="og:description" content="Learn about Colombo High Security, Sri Lanka's premier government-approved security and investigation company. Discover our mission, vision, and core values." />
+        <meta property="og:image" content="https://colombohighsecurity.com/CHS%20Logo%201%20.png" />
+        <meta property="og:url" content="https://colombohighsecurity.com/about" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="About Us - Colombo High Security" />
+        <meta name="twitter:description" content="Learn about Colombo High Security, Sri Lanka's premier government-approved security and investigation company. Discover our mission, vision, and core values." />
+        <meta name="twitter:image" content="https://colombohighsecurity.com/CHS%20Logo%201%20.png" />
+      </Helmet>
       {/* Hero Section */}
       <section className="relative bg-cover bg-center bg-no-repeat text-white py-20" style={{backgroundImage: 'url(https://i.postimg.cc/c4sQ1BZd/slider-1-1024x439.jpg)'}}>
         <div className="absolute inset-0 bg-slate-800 bg-opacity-50"></div>

@@ -9,6 +9,7 @@ import {
   CheckCircle,
   AlertCircle
 } from 'lucide-react';
+import { Helmet } from 'react-helmet-async';
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({
@@ -89,6 +90,19 @@ const ContactPage = () => {
 
   return (
     <div className="pt-0">
+      <Helmet>
+        <title>Contact Us - Colombo High Security</title>
+        <meta name="description" content="Get in touch with Colombo High Security for security services in Sri Lanka. Contact us for consultations, quotes, or emergency assistance. Find our office location and contact details." />
+        <meta property="og:title" content="Contact Us - Colombo High Security" />
+        <meta property="og:description" content="Get in touch with Colombo High Security for security services in Sri Lanka. Contact us for consultations, quotes, or emergency assistance. Find our office location and contact details." />
+        <meta property="og:image" content="https://colombohighsecurity.com/CHS%20Logo%201%20.png" />
+        <meta property="og:url" content="https://colombohighsecurity.com/contact" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Contact Us - Colombo High Security" />
+        <meta name="twitter:description" content="Get in touch with Colombo High Security for security services in Sri Lanka. Contact us for consultations, quotes, or emergency assistance. Find our office location and contact details." />
+        <meta name="twitter:image" content="https://colombohighsecurity.com/CHS%20Logo%201%20.png" />
+      </Helmet>
       {/* Hero Section */}
       <section className="relative bg-cover bg-center bg-no-repeat text-white py-20" style={{backgroundImage: 'url(https://images.pexels.com/photos/1181354/pexels-photo-1181354.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)'}}>
         <div className="absolute inset-0 bg-slate-800 bg-opacity-4 0"></div>

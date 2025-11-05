@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { 
   Shield, 
@@ -12,6 +11,7 @@ import {
   FileText,
   Clock
 } from 'lucide-react';
+import { Helmet } from 'react-helmet-async';
 
 const ServicesPage = () => {
   const services = [
@@ -80,6 +80,19 @@ const ServicesPage = () => {
 
   return (
     <div className="pt-0">
+      <Helmet>
+        <title>Our Services - Colombo High Security</title>
+        <meta name="description" content="Explore the comprehensive security services offered by Colombo High Security in Sri Lanka, including guard services, private investigations, VIP protection, and more." />
+        <meta property="og:title" content="Our Services - Colombo High Security" />
+        <meta property="og:description" content="Explore the comprehensive security services offered by Colombo High Security in Sri Lanka, including guard services, private investigations, VIP protection, and more." />
+        <meta property="og:image" content="https://colombohighsecurity.com/CHS%20Logo%201%20.png" />
+        <meta property="og:url" content="https://colombohighsecurity.com/services" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Our Services - Colombo High Security" />
+        <meta name="twitter:description" content="Explore the comprehensive security services offered by Colombo High Security in Sri Lanka, including guard services, private investigations, VIP protection, and more." />
+        <meta name="twitter:image" content="https://colombohighsecurity.com/CHS%20Logo%201%20.png" />
+      </Helmet>
       {/* Hero Section */}
       <section className="relative bg-cover bg-center bg-no-repeat text-white py-20" style={{backgroundImage: 'url(https://i.postimg.cc/9QDwzxkH/Security-banner-1250-X493-PX-1.jpg)'}}>
         <div className="absolute inset-0 bg-slate-800 bg-opacity-40"></div>
