@@ -1,12 +1,47 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, Shield, Eye, Users, Award } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import SecurityScene from '../components/SecurityScene';
+import { Helmet } from 'react-helmet-async';
 
 const HomePage = () => {
   return (
     <div>
+      <Helmet>
+        <title>Colombo High Security - Premier Security Services in Sri Lanka</title>
+        <meta name="description" content="Colombo High Security offers top-tier security services in Sri Lanka, including security guards, private investigations, and VIP protection. Government-approved and led by experts." />
+        <meta property="og:title" content="Colombo High Security - Premier Security Services in Sri Lanka" />
+        <meta property="og:description" content="Colombo High Security offers top-tier security services in Sri Lanka, including security guards, private investigations, and VIP protection. Government-approved and led by experts." />
+        <meta property="og:image" content="https://colombohighsecurity.com/CHS%20Logo%201%20.png" />
+        <meta property="og:url" content="https://colombohighsecurity.com/" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Colombo High Security - Premier Security Services in Sri Lanka" />
+        <meta name="twitter:description" content="Colombo High Security offers top-tier security services in Sri Lanka, including security guards, private investigations, and VIP protection. Government-approved and led by experts." />
+        <meta name="twitter:image" content="https://colombohighsecurity.com/CHS%20Logo%201%20.png" />
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "Colombo High Security",
+              "url": "https://colombohighsecurity.com/",
+              "logo": "https://colombohighsecurity.com/CHS%20Logo%201%20.png",
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+94-77-488-98-92",
+                "contactType": "customer service"
+              },
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "4th Floor, No.280A, Lake Road",
+                "addressLocality": "Maharagama",
+                "addressCountry": "LK"
+              },
+              "email": "info@colombohighsecurity.com"
+            }
+          `}
+        </script>
+      </Helmet>
       {/* Hero Section */}
       <section className="relative h-screen overflow-hidden bg-cover bg-center bg-no-repeat" style={{backgroundImage: 'url(https://i.postimg.cc/VLcCGB5j/factory-security-nashville.jpg)'}}>
         <div className="absolute inset-0 bg-slate-900 bg-opacity-65 flex items-center justify-center">
